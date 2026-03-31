@@ -146,6 +146,7 @@ bool IPAddress::_parse_ipv6(const String &p_string, IPAddress &r_ip) {
 			r_ip.field16[i] = 0;
 		} else {
 			r_ip.field16[i] = r_ip.field16[i - pad];
+			r_ip.field16[i - pad] = 0;
 		}
 	}
 	return true;
