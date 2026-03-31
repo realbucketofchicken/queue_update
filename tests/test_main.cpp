@@ -49,7 +49,6 @@
 #include "tests/core/io/test_http_client.h"
 #include "tests/core/io/test_image.h"
 #include "tests/core/io/test_ip.h"
-#include "tests/core/io/test_ip_address.h"
 #include "tests/core/io/test_json.h"
 #include "tests/core/io/test_json_native.h"
 #include "tests/core/io/test_logger.h"
